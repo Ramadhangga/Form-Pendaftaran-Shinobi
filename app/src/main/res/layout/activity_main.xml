@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:tools="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:weightSum="1"
+        tools:context="id.sch.smktelkom_mlg.tugas1.xiirpl4022.formpendaftaranshinobi.MainActivity">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hello World!" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="290dp"
+            android:layout_height="164dp"
+            android:src="@drawable/shi" />
+
+        <EditText
+            android:id="@+id/nama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nama Lengkap" />
+
+        <TextView
+            android:id="@+id/jenis"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jenis Shinobi" />
+
+        <RadioGroup
+            android:layout_width="210dp"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/cowok"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:text="Ninja" />
+
+            <RadioButton
+                android:id="@+id/cewek"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:text="Kunoichi" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/asal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Asal Desa" />
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:spinnerMode="dropdown" />
+
+        <Button
+            android:id="@+id/buttonOK"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="OK" />
+
+        <TextView
+            android:id="@+id/jutsu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jenis Jutsu" />
+
+        <CheckBox
+            android:id="@+id/ninjutsu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="Ninjutsu" />
+
+        <CheckBox
+            android:id="@+id/taijutsu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="Taijutsu" />
+
+        <CheckBox
+            android:id="@+id/genjutsu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="Genjutsu" />
+
+        <Button
+            android:id="@+id/accept"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ACCEPT" />
+
+        <TextView
+            android:id="@+id/hasil"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hasil" />
+
+    </LinearLayout>
+</ScrollView>
