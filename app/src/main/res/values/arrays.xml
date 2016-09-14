@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="ListDesa">
+        <item>Pilih Desa Asal</item>
+        <item>Konohagakure</item>
+        <item>Sunagakure</item>
+        <item>Iwagakure</item>
+        <item>Kumogakure</item>
+        <item>Kirigakure</item>
+        <item>Otogakure</item>
+        <item>Amegakure</item>
+    </string-array>
+</resources>
